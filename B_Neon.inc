@@ -36,7 +36,7 @@ public PegarNeon(vehicleid){
 	return Neon[vehicleid];
 }
 public NeonAnexado(vehicleid){
-	return Neon[vehicleid] != 0 ? (true) : (false);
+	return Neon[vehicleid];
 }
 public AnexarNeon(vehicleid, neon){
 	
